@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Vicente Armando Josine</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <header class="bg-white shadow-md fixed w-full top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold text-blue-600">Vicente Josine</h1>
+      <nav class="space-x-6 font-medium">
+        <a href="#sobre" class="hover:text-blue-600">Sobre</a>
+        <a href="#habilidades" class="hover:text-blue-600">Habilidades</a>
+        <a href="#projetos" class="hover:text-blue-600">Projetos</a>
+        <a href="#contato" class="hover:text-blue-600">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="relative h-screen flex items-center justify-center text-center text-white overflow-hidden">
+    <canvas id="matrixCanvas" class="absolute inset-0 w-full h-full"></canvas>
+    <div class="absolute inset-0 bg-black/70"></div>
+    <div class="relative z-10 max-w-2xl px-6 flex flex-col items-center">
+      <h2 class="text-5xl font-bold mb-4 opacity-0 animate-fadeIn delay-100">Vicente Armando Josine</h2>
+      <p class="text-lg mb-6 opacity-0 animate-fadeIn delay-300">Estudante apaixonado por tecnologia e desenvolvimento de sistemas</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-fadeIn delay-500">
+        <a href="#projetos" class="bg-blue-600 px-6 py-3 rounded-lg text-white font-semibold shadow hover:bg-blue-700 transition animate-pulse">
+          Ver meus projetos
+        </a>
+        <a href="curriculo.pdf" download class="bg-white px-6 py-3 rounded-lg text-blue-600 font-semibold shadow hover:bg-gray-200 transition animate-pulse">
+          📄 Download CV
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="sobre" class="container mx-auto py-20 px-6">
+    <h3 class="text-3xl font-bold mb-6 text-blue-600">Sobre mim</h3>
+    <p class="leading-relaxed text-lg mb-6">
+      Sou <strong>Vicente Armando Josine</strong>, Sou Vicente Armando Josine, um estudante apaixonado por tecnologia e desenvolvimento de sistemas. Desde cedo, descobri que a programação não é apenas escrever códigos, mas sim criar soluções inteligentes que transformam ideias em realidade. Cada linha de código que escrevo representa meu compromisso em aprender continuamente, superar desafios e explorar novas possibilidades no universo digital.
+Meu objetivo é unir criatividade, lógica e inovação para construir sistemas que facilitem a vida das pessoas e resolvam problemas reais. Com habilidades em Python, Java, HTML, CSS, JavaScript e Git/GitHub, busco não apenas desenvolver projetos, mas também evoluir como profissional, contribuindo para o avanço da tecnologia e deixando um legado de excelência e dedicação.
+Acredito que o aprendizado constante, a curiosidade e a paixão pelo que faço são os principais motores para alcançar resultados extraordinários e transformar ideias em soluções digitais impactantes.
+    </p>
+    <a href="curriculo.pdf" download class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-blue-700 transition">
+      📄 Baixar Currículo
+    </a>
+  </section>
+  <section id="habilidades" class="py-20 px-6" style="background: linear-gradient(to right, #1e3a8a, #2563eb);">
+    <div class="container mx-auto text-white">
+      <h3 class="text-3xl font-bold mb-10 text-center">Habilidades</h3>
+      <div class="flex flex-wrap justify-center gap-6">
+        <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full hover:bg-white/20 transition">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M12 4h9"></path><path d="M3 10h18"></path></svg>
+          <span class="font-semibold">Python</span>
+        </div>
+        <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full hover:bg-white/20 transition">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+          <span class="font-semibold">Java</span>
+        </div>
+        <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full hover:bg-white/20 transition">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 12H8"></path><path d="M12 8v8"></path></svg>
+          <span class="font-semibold">HTML & CSS</span>
+        </div>
+        <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full hover:bg-white/20 transition">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"></path></svg>
+          <span class="font-semibold">JavaScript</span>
+        </div>
+        <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full hover:bg-white/20 transition">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M12 4h9"></path><path d="M3 10h18"></path></svg>
+          <span class="font-semibold">Git & GitHub</span>
+        </div>
+        <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full hover:bg-white/20 transition">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+          <span class="font-semibold">SQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos" class="py-20 px-6" style="background: linear-gradient(to right, #f3f4f6, #e5e7eb);">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-bold mb-10 text-blue-600 text-center">Projetos</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:-translate-y-2 hover:shadow-2xl transition duration-300 relative group">
+          <img src="https://source.unsplash.com/400x250/?code" alt="Projeto 1" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h4 class="font-bold text-xl mb-2">Sistema de Login em Java</h4>
+            <p class="text-gray-600 mb-4">Projeto que implementa autenticação de usuários com Java e arquivos JSON.</p>
+            <a href="#" class="text-blue-600 font-semibold hover:underline">Ver mais →</a>
+          </div>
+          <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition duration-500">
+            <svg class="w-8 h-8 text-blue-600 animate-bounce" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 13l4 4L19 7"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:-translate-y-2 hover:shadow-2xl transition duration-300 relative group">
+          <img src="https://source.unsplash.com/400x250/?python" alt="Projeto 2" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h4 class="font-bold text-xl mb-2">Automação com Python</h4>
+            <p class="text-gray-600 mb-4">Script para processar dados e gerar relatórios automatizados.</p>
+            <a href="#" class="text-blue-600 font-semibold hover:underline">Ver mais →</a>
+          </div>
+          <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition duration-500">
+            <svg class="w-8 h-8 text-blue-600 animate-bounce" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 13l4 4L19 7"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:-translate-y-2 hover:shadow-2xl transition duration-300 relative group">
+          <img src="https://source.unsplash.com/400x250/?technology" alt="Projeto 3" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h4 class="font-bold text-xl mb-2">Website Pessoal</h4>
+            <p class="text-gray-600 mb-4">Portfólio desenvolvido com Tailwind CSS para apresentar meus projetos.</p>
+            <a href="#" class="text-blue-600 font-semibold hover:underline">Ver mais →</a>
+          </div>
+          <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition duration-500">
+            <svg class="w-8 h-8 text-blue-600 animate-bounce" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 13l4 4L19 7"></path>
+            </svg>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="container mx-auto py-20 px-6">
+    <h3 class="text-3xl font-bold mb-6 text-blue-600">Contato</h3>
+    <p class="mb-6">Fico feliz em conversar sobre projetos, oportunidades ou colaborações:</p>
+    <div class="bg-white rounded-2xl shadow-lg p-6 max-w-lg mx-auto">
+      <p class="mb-2"><strong>📞 Telefone:</strong> 879892926</p>
+      <p class="mb-4"><strong>✉️ E-mail:</strong> vicentejosine@gmail.com</p>
+      <form class="mt-4 space-y-4">
+        <input type="text" placeholder="Seu nome" class="w-full p-3 border rounded-lg">
+        <input type="email" placeholder="Seu e-mail" class="w-full p-3 border rounded-lg">
+        <textarea placeholder="Sua mensagem" class="w-full p-3 border rounded-lg h-32"></textarea>
+        <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+          Enviar Mensagem
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-blue-600 text-white text-center py-6 mt-10">
+    © 2025 - Vicente Armando Josine | Email: vicentejosine@gmail.com
+  </footer>
+
+  <style>
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(20px);} to {opacity:1; transform: translateY(0);} }
+    .animate-fadeIn { animation: fadeIn 1s forwards; }
+    .delay-100 { animation-delay: 0.1s; }
+    .delay-300 { animation-delay: 0.3s; }
+    .delay-500 { animation-delay: 0.5s; }
+
+    @keyframes pulse { 0%,100% { transform: scale(1); opacity:1; } 50% { transform: scale(1.05); opacity:0.9; } }
+    .animate-pulse { animation: pulse 2s infinite; }
+  </style>
+
+
+  <script>
+    const canvas = document.getElementById('matrixCanvas');
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    const fontSize = 16;
+    const columns = canvas.width / fontSize;
+
+    const drops = Array(Math.floor(columns)).fill(1);
+
+    function drawMatrix() {
+      ctx.fillStyle = 'rgba(0,0,0,0.1)';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      ctx.fillStyle = '#00ff00';
+      ctx.font = fontSize + 'px monospace';
+
+      for (let i = 0; i < drops.length; i++) {
+        const text = letters[Math.floor(Math.random() * letters.length)];
+        ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+        if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+          drops[i] = 0;
+        }
+        drops[i]++;
+      }
+    }
+
+    setInterval(drawMatrix, 50);
+
+    window.addEventListener('resize', () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    });
+
+    feather.replace()
+  </script>
+
+</body>
+</html>
